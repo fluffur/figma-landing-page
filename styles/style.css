@@ -3,6 +3,7 @@ html {
   box-sizing: border-box;
 }
 
+
 *,
 *:before,
 *:after {
@@ -17,8 +18,8 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1440px;
-  padding: 0 156px;
+  max-width: 90rem;
+  padding: 0 9.75rem;
   margin: 0 auto;
 }
 
@@ -27,78 +28,78 @@ body {
 }
 
 .header {
-  height: 500px;
+  height: 31.25rem;
   background-color: #4694dc;
   min-height: 500px;
   padding-top: 82px;
-  padding-bottom: 82px;
+  padding-bottom: 5.125rem;
   color: #ffffff;
 }
 
 .header_title {
-  font-size: 56px;
+  font-size: 3.5rem;
   font-weight: 600;
-  margin-bottom: 35px;
+  margin-bottom: 2.1875rem;
 }
 .header_text {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 24px;
-  max-width: 437px;
-  margin-bottom: 48px;
-  line-height: 24px;
+  line-height: 1.5rem;
+  max-width: 27.3125rem;
+  margin-bottom: 3rem;
+  line-height: 1.5rem;
 }
 .header_button {
   background-color: #ffffff;
-  max-width: 194px;
+  max-width: 12.125rem;
   width: 100%;
-  height: 60px;
+  height: 3.75rem;
   border: none;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 /* Block */
 .services .block {
   text-align: center;
-  margin-bottom: 118px;
+  margin-bottom: 7.375rem;
 }
 .block_title {
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 16px;
-  letter-spacing: 3.3px;
-  margin-bottom: 25px;
+  font-size: 1rem;
+  letter-spacing: .2062rem;
+  margin-bottom: 1.5625rem;
 }
 .block_text {
   color: #9ca3af;
-  letter-spacing: 0.7px;
-  max-width: 465px;
-  line-height: 24px;
+  letter-spacing: .0437rem;
+  max-width: 29.0625rem;
+  line-height: 1.5rem;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   margin: 0 auto;
 }
 
 /* Services */
 
 .services {
-  padding: 88px 0 171px;
+  padding: 5.5rem 0 10.6875rem;
 }
 
 .services_items {
-  max-width: 888px;
+  max-width: 55.5rem;
   margin: 0 auto;
   display: flex;
-  gap: 24px;
+  gap: 1.5rem;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 .item {
-  max-width: 280px;
+  max-width: 17.5rem;
   width: 100%;
-  height: 116px;
+  height: 7.25rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -109,19 +110,19 @@ body {
 }
 .services_items_title {
   color: #9ca3af;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
 }
 
 /* Media */
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 85.375rem) {
   .team .container {
-    padding: 0 15px;
+    padding: 0 .9375rem;
   }
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 64rem) {
   .team_items {
     flex-direction: column;
     align-items: center;
@@ -129,9 +130,9 @@ body {
 }
 
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 51.875rem) {
   .container {
-    padding: 0 15px;
+    padding: 0 .9375rem;
   }
 
   .services_items {
@@ -140,76 +141,76 @@ body {
   }
 
   .services_items_title {
-    font-size: 14px;
+    font-size: .875rem;
   }
 
   .header_button {
-    font-size: 14px;
+    font-size: .875rem;
   }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 33.75rem) {
   .header_title {
-    font-size: 36px;
+    font-size: 2.25rem;
   }
 
   .header_button {
-    font-size: 10px;
+    font-size: .625rem;
   }
 }
 
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 12.5rem) {
   .header_title, .block_title {
-    font-size: 12px; 
+    font-size: .75rem; 
   }
 
   .header_text, .block_text {
-    font-size: 10px;
+    font-size: .625rem;
   }
 }
 
 /* Team */
 .team .block {
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 5rem;
 }
 
 .team {
-  padding-bottom: 118px;
+  padding-bottom: 7.375rem;
 }
 
 .team_items {
   display: flex;
   justify-content: space-between;
-  max-width: 880px;
+  max-width: 55rem;
   width: 100%;
   margin: 0 auto;
-  gap: 50px;
+  gap: 3.125rem;
 }
 .team_item {
-  max-width: 260px;
+  max-width: 16.25rem;
   width: 100%;
-  height: 76px;
-  border-radius: 11px;
+  height: 4.75rem;
+  border-radius: .6875rem;
   background-color: #ffffff;
-  filter: drop-shadow(0 4px 70px rgba(91, 93, 99, 0.06));
+  filter: drop-shadow(0 .25rem 4.375rem rgba(91, 93, 99, 0.06));
   display: flex;
-  padding: 20px;
+  padding: 1.25rem;
   align-items: center;
 }
 .team_img {
   align-self: center;
-  margin-right: 8px;
+  margin-right: .5rem;
 }
 .team_title {
-  margin-bottom: 3px;
-  margin-top: 5px;
+  margin-bottom: .1875rem;
+  margin-top: .3125rem;
   font-weight: 500;
-  font-size: 12px;
+  font-size: .75rem;
 }
 .team_text {
   margin-top: 0;
   color: #9ca3af;
-  font-size: 11px;
+  font-size: .6875rem;
   font-style: italic;
 }
